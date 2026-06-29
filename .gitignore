@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Conda / environments
+.env
+.venv/
+env/
+venv/
+
+# Large data
+data/
+results/
+logs/
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.mtx
+*.rds
+*.RDS
+*.rdata
+*.RData
+*.npy
+*.npz
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Model outputs
+model/
+checkpoints/
+wandb/
+lightning_logs/
+
+# Third-party cloned repositories
+models/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets
+*.token
+*.key
+*.pem
+.env*
