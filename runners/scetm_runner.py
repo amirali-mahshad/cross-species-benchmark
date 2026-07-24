@@ -511,7 +511,7 @@ if __name__ == "__main__":
     )
 
     parser.add_argument("--n_epochs", type=int, default=2000)
-    parser.add_argument("--eval_every", type=int, default=500)
+    parser.add_argument("--eval_every", type=int, default=999999)
     parser.add_argument("--n_samplers", type=int, default=4)
 
     parser.add_argument("--n_neighbors", type=int, default=20)
